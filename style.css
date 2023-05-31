@@ -1,33 +1,71 @@
-*{
-    border: none;
-    margin: none;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
 }
 
-/**navbar and hero-section start*/ 
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
 
-/**navbar and hero-section ending*/ 
+/**navbar and hero-section start*/
 
-/**our story section start*/ 
+/**navbar and hero-section ending*/
 
-/**our story section ending*/ 
+/**our story section start*/
 
-/**watch section start*/ 
+/**our story section ending*/
 
-/**watch section ending*/ 
+/**watch section start*/
+
+/**watch section ending*/
 
 /**Expert section start*/
 
+#expertise {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40rem;
+  gap: 30px;
+}
+
+.expertise-heading {
+  text-align: center;
+}
+
+.expertise-items-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20%;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.expertise-item h2 {
+  margin: 20px;
+}
+
 /**Expert section ending*/
 
-/**team section start*/ 
+/**team section start*/
 
-/**team section ending*/ 
+/**team section ending*/
 
-/**contact-client section start*/ 
+/**contact-client section start*/
 
-/**contact-client section ending*/ 
+/**contact-client section ending*/
 
-/**footer start*/ 
+/**footer start*/
 
-/**footer ending*/ 
+/**footer ending*/
