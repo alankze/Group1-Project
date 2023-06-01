@@ -60,6 +60,24 @@ body {
 /**our story section ending*/ 
 
 /**watch section start*/
+#watch{
+  display: flex;
+  min-height: 30rem;
+  border:solid;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle{
+  width:100%;
+}
+
+.play_icon{
+  position:absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
 
 /**watch section ending*/
 
