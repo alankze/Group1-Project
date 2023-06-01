@@ -181,17 +181,18 @@ li a {
 
 /**Expertise section start*/
 
-#expertise {
+.expertise {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 40rem;
+  padding: 0 30rem;
   gap: 30px;
 }
 
 .expertise-heading {
   text-align: center;
+  margin-top: 20px;
 }
 
 .expertise-items-container {
@@ -201,12 +202,10 @@ li a {
   gap: 20%;
   justify-content: center;
   align-items: center;
-
   text-align: center;
 }
 
-.expertise-item h2 {
-  margin: 20px;
+.expertise-item {
 }
 
 /**Expertise section ending*/
@@ -220,5 +219,54 @@ li a {
 /**contact-client section ending*/
 
 /**footer start*/
+.footer-container {
+  background-image: url('./images/bgk-footer.png');
+  display: flex;
+  gap: 3rem;
+  padding: 70px 20rem;
+  color: white;
+}
+.footer-container h5 {
+  margin-bottom: 2rem;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin-bottom: 3rem;
+}
+
+.footer-about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ourstudio-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-address-container {
+  display: flex;
+}
+
+.footer-phone-container {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.stayintouch {
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+}
 
 /**footer ending*/
