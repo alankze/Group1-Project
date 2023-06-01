@@ -21,10 +21,14 @@ body {
 /**our story section start*/ 
 #our_story{
     display: flex;
-    height: 200px;
+    height: 20rem;
     justify-content: space-evenly;
-    border:solid;
     align-items: center;
+}
+
+
+.story_header{
+  font-size: 22px;
 }
 
 .logo_story{
@@ -41,6 +45,8 @@ body {
     margin-top: 1%;
     margin-bottom: 1%;
 }
+
+
 
 .storyparent h1{
     font-family: 'Playfair Display';
