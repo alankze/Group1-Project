@@ -1,17 +1,27 @@
-*{
-    border: none;
-    margin: none;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
 }
 
-/**navbar and hero-section start*/ 
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
 
-/**navbar and hero-section ending*/ 
+/**navbar and hero-section start*/
+
+/**navbar and hero-section ending*/
 
 /**our story section start*/ 
 #our_story{
     display: flex;
-    min-height: 100px;
+    height: 200px;
     justify-content: space-evenly;
     border:solid;
     align-items: center;
@@ -23,6 +33,9 @@
 }
 
 .storyparent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 50%;
     height:100%;
     margin-top: 1%;
@@ -42,25 +55,54 @@
     color: #00e0d0;
     background-color: white;
     border: solid 1px #00e0d0;
+    width: 10rem;
 }
 /**our story section ending*/ 
 
-/**watch section start*/ 
+/**watch section start*/
 
-/**watch section ending*/ 
+/**watch section ending*/
 
-/**Expert section start*/
+/**Expertise section start*/
 
-/**Expert section ending*/
+#expertise {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40rem;
+  gap: 30px;
+}
 
-/**team section start*/ 
+.expertise-heading {
+  text-align: center;
+}
 
-/**team section ending*/ 
+.expertise-items-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20%;
+  justify-content: center;
+  align-items: center;
 
-/**contact-client section start*/ 
+  text-align: center;
+}
 
-/**contact-client section ending*/ 
+.expertise-item h2 {
+  margin: 20px;
+}
 
-/**footer start*/ 
+/**Expertise section ending*/
 
-/**footer ending*/ 
+/**team section start*/
+
+/**team section ending*/
+
+/**contact-client section start*/
+
+/**contact-client section ending*/
+
+/**footer start*/
+
+/**footer ending*/
