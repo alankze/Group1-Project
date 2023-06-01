@@ -67,12 +67,15 @@ body {
 
 /**footer start*/
 .footer-container {
+  font-family: 'Roboto', sans-serif;
   background-image: url('./images/bgk-footer.png');
   display: flex;
-  gap: 3rem;
-  padding: 70px 20rem;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
   color: white;
 }
+
 .footer-container h5 {
   margin-bottom: 2rem;
 }
@@ -85,8 +88,12 @@ body {
 .footer-top {
   display: flex;
   justify-content: space-around;
-  border: 1px solid black;
+  gap: 3rem;
   margin-bottom: 3rem;
+}
+
+.footer-about-container p {
+  max-width: 8rem;
 }
 
 .footer-about-container {
@@ -108,12 +115,21 @@ body {
   margin-top: 1rem;
 }
 
-.stayintouch {
+.footer-form {
 }
 
 .footer-bottom {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
+.bottom-left {
+  display: flex;
+  gap: 1rem;
+}
+
+.bottom-right {
+  display: flex;
+  gap: 1rem;
+}
 /**footer ending*/
