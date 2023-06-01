@@ -18,9 +18,46 @@ body {
 
 /**navbar and hero-section ending*/
 
-/**our story section start*/
+/**our story section start*/ 
+#our_story{
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+    border:solid;
+    align-items: center;
+}
 
-/**our story section ending*/
+.logo_story{
+    max-width: 10%;
+    height: 100px
+}
+
+.storyparent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height:100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.storyparent h1{
+    font-family: 'Playfair Display';
+}
+
+.story1{
+    font-family: 'Roboto', sans-serif;;
+}
+
+.button_learn{
+    font-family:'Hammersmith One', sans-serif;
+    color: #00e0d0;
+    background-color: white;
+    border: solid 1px #00e0d0;
+    width: 10rem;
+}
+/**our story section ending*/ 
 
 /**watch section start*/
 
