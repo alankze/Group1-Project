@@ -183,8 +183,6 @@ li a {
 .expertise-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 4rem 30rem;
   gap: 2rem;
 }
@@ -207,7 +205,6 @@ li a {
 
   gap: 1px;
   justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
@@ -299,6 +296,8 @@ li a {
 }
 
 .footer-form {
+  display: flex;
+  border: 1px solid white;
 }
 
 .footer-form-input {
@@ -306,6 +305,8 @@ li a {
   height: 2.5rem;
   width: 10rem;
   border: 1px solid grey;
+  color: white;
+  background-color: transparent;
 }
 
 .subscribe-btn {
