@@ -221,14 +221,14 @@ li a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("./images/bgk-header.png");
+  background-image: url('./images/bgk-header.png');
   background-position: center;
   background-size: cover;
   background-repeat: no repeat;
   font-family: 'Roboto', sans-serif;
   height: 600px;
 }
-  
+
 .team-heading {
   text-align: center;
   padding: 20px;
@@ -250,10 +250,9 @@ li a {
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   justify-content: center;
- }
+}
 
-  
- .team-item  {
+.team-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -264,7 +263,7 @@ li a {
   width: 200px;
 }
 
-.team-item  .img {
+.team-item .img {
   height: 300px;
   width: 200px;
   display: inline-block;
@@ -275,7 +274,7 @@ li a {
 .info {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   padding: 20px;
   color: white;
 }
@@ -290,18 +289,18 @@ li a {
 .team-hiring {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   padding: 20px;
 }
 
 .team-hiring {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   padding: 20px;
 }
 .team-hiring p {
-  align-items: center; 
+  align-items: center;
   padding: 20px;
   color: white;
 }
@@ -322,9 +321,87 @@ li a {
 
 /**contact-client section start*/
 
+.contact-container {
+  /* background-color: white;	
+  background-repeat: no-repeat;	
+  background-attachment: fixed;	
+  background-size: 100%;	 */
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* not justify-content because of flex-direction column*/
+  width: 60rem;
+}
+
+.contact-form-container input,
+select,
+textarea {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact-button {
+  background-color: white;
+  border-color: aqua;
+  width: 175px;
+  border: 1px solid aqua;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: aqua;
+}
+
+.contact-button :hover {
+  background-color: #000000;
+  border-color: aqua;
+}
+
+.contact-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.logo-heading {
+  /* max-width: 20rem;	 */
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  /* max-width: 10rem;	 */
+}
+
 /**contact-client section ending*/
 
 /**footer start*/
+
 .footer-container {
   font-family: 'Roboto', sans-serif;
   background-image: url('./images/bgk-footer.png');
@@ -390,27 +467,22 @@ li a {
   flex-direction: column;
 }
 
-.footer-form-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .footer-form {
   display: flex;
-  border: 1px solid white;
 }
 
 .footer-form-input {
+  display: flex;
   margin-bottom: 1rem;
   height: 2.5rem;
-  width: 10remt;
+  width: 14rem;
   border: 1px solid grey;
   color: white;
   background-color: transparent;
 }
 
 .subscribe-btn {
+  display: flex;
   background-image: url('./images/png/paper122.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -418,6 +490,7 @@ li a {
   opacity: 0.5;
   width: 5rem;
   height: 2rem;
+  margin: 3px 1rem;
 }
 
 .footer-social {
