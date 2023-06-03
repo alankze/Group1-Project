@@ -321,6 +321,82 @@ li a {
 
 /**contact-client section start*/
 
+.contact-container {
+  /* background-color: white; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size: 100%;   */
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* not justify-content because of flex-direction column*/
+  width: 60rem;
+}
+
+.contact-form-container input,
+select,
+textarea {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact-button {
+  background-color: white;
+  border-color: aqua;
+  width: 175px;
+  border: 1px solid aqua;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: aqua;
+}
+
+.contact-button :hover {
+  background-color: #000000;
+  border-color: aqua;
+}
+
+.contact-logo-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-heading {
+  /* max-width: 20rem;   */
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  /* max-width: 10rem;   */
+}
+
 /**contact-client section ending*/
 
 /**footer start*/
