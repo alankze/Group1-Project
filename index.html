@@ -147,90 +147,96 @@
                 <h2>MEET OUR AMAZING TEAM</h2>
                 <p>Lorem ipsum dolor sit amet proin gravita nibh vel velit</p>
             </div>
-            
+
             <div class="team-container">
-    
+
                 <div class="team-item">
                     <div class="img"></div>
                     <div class="info">
                         <h3>SEM UCUK</h3>
-                        <p>CEO & FOUNDER</p> 
-                    </div>  
+                        <p>CEO & FOUNDER</p>
+                    </div>
                 </div>
-    
+
                 <div class="team-item">
                     <div class="img"></div>
                     <div class="info">
                         <h3>DIK ALADIN</h3>
                         <p>ENGINEERING</p>
-                    </div> 
+                    </div>
                 </div>
-    
+
                 <div class="team-item">
                     <div class="img"></div>
                     <div class="info">
                         <h3>JENG KOL</h3>
                         <p>DESIGNER</p>
-                    </div> 
+                    </div>
                 </div>
-    
+
                 <div class="team-item">
                     <div class="img"></div>
                     <div class="info">
                         <h3>PET ROMAK</h3>
                         <p>MARKETING</p>
-                    </div> 
+                    </div>
                 </div>
-    
+
             </div>
-    
+
             <div class="team-hiring">
-                <p>Become part of our dream team, let's join us !</p>  
+                <p>Become part of our dream team, let's join us !</p>
                 <a href="#Home" class="btn-button2"> <b>WE ARE HIRING</b></a>
             </div>
-        
-    </section> 
+
+        </section>
 
         <!--team section ending-->
 
         <!--contact-client section start-->
-        <section>
-            <div class="container">
-    
-                <H1 id="logo-text">OUR HAPPY CLIENT</H1>
-                <div id="logo">
-                <img src="/img/Zara_Logo.png" alt="Zara_Logo" width="156" height="22">
-                <img src="/img/Logo_of_Mango_(new).png" alt="Logo_of_Mango_">
-                <img src="/img/1280px-Barneys_New_York_Logo.png" alt="1280px-Barneys_New_York_Logo">
-                <img src="/img/1280px-Gucci_Logo.png" alt="1280px-Gucci_Logo">
-                <img src="/img/Calvin_klein_logo.png" alt="Calvin_klein_logo">
-                <img src="/img/1280px-Logo_NIKE.png" alt="1280px-Logo_NIKE">
-                <img src="/img/Converse_logo.png" alt="Converse_logo">
-                <img src="/img/Puma_Logo.png" alt="Puma_Logo">
-                <img src="/img/1280px-Levi's_logo.png" alt="1280px-Levi">
-                <img src="/img/Billabong.png" alt="Billabong">
-                
+        <section id="contact">
+            <div class="contact-container">
+
+
+                <div class="contact-form-container">
+                    <div class="form-heading">
+                        <h2>GIVE US A GOOD NEWS</h2>
+                    </div>
+                    <form>
+                        <label for="name"></label>
+                        <input type="text" id="name" placeholder="Name">
+
+                        <label for="E-mail"></label>
+                        <input type="text" id="email" placeholder="E-mail">
+                        <label for="subject"></label>
+                        <input type="text" id="subject" placeholder="Subject">
+                        <label for="your message"></label>
+                        <textarea id="message" placeholder="Your Message" style="height: 200px;">
+                        </textarea>
+
+                        <button class="contact-button" type="button" value="submit">Submit
+                        </button>
+                    </form>
                 </div>
-    
-                <form>
-                    
-                    <h2>GIVE US A GOOD NEWS</h2>
-                    <label for="name"></label>
-                    <input type="text" id="name" placeholder="Name">
-                    
-                    <label for="E-mail"></label>
-                    <input type="text" id="email" placeholder="E-mail">
-    
-                    <label for="subject"></label>
-                    <input type="text" id="subject" placeholder="Subject">
-    
-                    <label for="your message"></label>
-                    <textarea id="message" placeholder="Your Message" style="height: 200px;">
-                    </textarea>
-                    
-                    <button class="contact-button" type="button" value="submit">Submit
-                    </button>
-                </form>
+
+                <div class="contact-logo-container">
+                    <div class="logo-heading">
+                        <h1>OUR HAPPY CLIENT</h1>
+                    </div>
+                    <div class="logo">
+                        <img src="/img/Zara_Logo.png" alt="Zara_Logo" width="156" height="22">
+                        <img src="/img/Logo_of_Mango_(new).png" alt="Logo_of_Mango_">
+                        <img src="/img/1280px-Barneys_New_York_Logo.png" alt="1280px-Barneys_New_York_Logo">
+                        <img src="/img/1280px-Gucci_Logo.png" alt="1280px-Gucci_Logo">
+                        <img src="/img/Calvin_klein_logo.png" alt="Calvin_klein_logo">
+                        <img src="/img/1280px-Logo_NIKE.png" alt="1280px-Logo_NIKE">
+                        <img src="/img/Converse_logo.png" alt="Converse_logo">
+                        <img src="/img/Puma_Logo.png" alt="Puma_Logo">
+                        <img src="/img/1280px-Levi's_logo.png" alt="1280px-Levi">
+                        <img src="/img/Billabong.png" alt="Billabong">
+
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -238,7 +244,7 @@
     </main>
 
     <!--footer start-->
-    <footer>
+    <footer id="footer">
         <div class="footer-container">
 
             <div class="content-container">
@@ -278,14 +284,10 @@
 
                     <div class="footer-right-container">
                         <h5>Stay in Touch</h5>
-                        <div class="footer-form-container">
-                            <div class="footer-form">
-                                <form action="submit">
-                                    <input class="footer-form-input" type="text" />
-                                    <input class="subscribe-btn" type="submit" value="" />
-                                </form>
-                            </div>
-                        </div>
+                        <form class="footer-form" action="submit">
+                            <input class="footer-form-input" type="text" />
+                            <input class="subscribe-btn" type="submit" value="" />
+                        </form>
                         <div class="footer-social">
                             <img src="./images/png/facebook.png" width="30px" alt="">
                             <img src="./images/png/twitter.png" width="30px" alt="">
