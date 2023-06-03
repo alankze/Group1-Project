@@ -22,8 +22,8 @@ body {
   background-size: cover;
   min-width: 100%;
   min-height: 100%;
-}
 
+  
 #nav-container {
   display: flex;
   justify-content: space-around;
@@ -328,6 +328,7 @@ li a {
   background-size: 100%;   */
   display: flex;
   justify-content: center;
+
   padding: 3rem 0;
 }
 
@@ -384,17 +385,19 @@ textarea {
 .contact-logo-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .logo-heading {
-  /* max-width: 20rem;   */
+  /* max-width: 20rem;	 */
 }
 
 .logo {
   display: grid;
   grid-template-columns: auto auto;
   gap: 30px;
-  /* max-width: 10rem;   */
+
+  /* max-width: 10rem;	 */
 }
 
 /**contact-client section ending*/
