@@ -219,7 +219,7 @@ header {
   background-image: url('./images/bgk-header.png');
   background-position: center;
   background-size: cover;
-  background-repeat: no repeat;
+  background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
   height: 37.5rem;
 }
